@@ -1,0 +1,37 @@
+<html>
+  <head>
+    <title>Generate PropTypes from JSON</title>
+  </head>
+  <body>
+    <div class="container">
+      <h1 class="whole-block heading">Prop Type Generator</h1>
+        <label class="third-block">
+          <input type="checkbox" id="destructure"> Destructure from React.PropTypes
+        </label class="third-block">
+        <label class="third-block">
+          <input type="checkbox" id="semicolons"> Use semicolons
+        </label>
+        <label class="third-block">
+          <input type="checkbox" id="function_wrapper"> Use a function wrapper
+        </label>
+        <label class="third-block">
+          <input type="checkbox" id="alphabetize"> Alphabetize props
+        </label >
+        <label class="third-block">
+          <input type="checkbox" id="dangle_commas"> Add dangling commas
+        </label>
+        <label class="third-block">
+          <input type="checkbox" id="required"> Use .isRequired
+        </label>
+        <div class="whole-block">
+          <button id="showDemo"> Show a Demo</button>
+        </div>
+      <div class="half-block">
+        <textarea id="input" class="code-input" rows="30" placeholder="Paste some JSON here"></textarea>
+      </div>
+      <div class="half-block">
+        <textarea id="output" class="code-input" rows="30" placeholder="PropTypes will appear here" disabled="true"></textarea>
+      </div>
+    </div>
+  </body>
+</html>
